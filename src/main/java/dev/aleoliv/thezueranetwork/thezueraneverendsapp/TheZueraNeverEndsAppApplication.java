@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ThezueraneverendsappApplication {
+public class TheZueraNeverEndsAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ThezueraneverendsappApplication.class, args);
+		SpringApplication.run(TheZueraNeverEndsAppApplication.class, args);
 	}
 
 }
