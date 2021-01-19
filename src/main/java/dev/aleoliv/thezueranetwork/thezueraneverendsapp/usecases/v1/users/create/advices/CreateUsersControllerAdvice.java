@@ -1,4 +1,4 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.phrases.phrases.create.advices;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.advices;
 
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.exceptions.ServiceApiException;
 import org.springframework.http.HttpStatus;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 @RestControllerAdvice
-public class CreatePhraseControllerAdvice {
+public class CreateUsersControllerAdvice {
 
     @ExceptionHandler(ServiceApiException.class)
     public ResponseEntity<String> handlerServiceApiException(ServiceApiException e) {

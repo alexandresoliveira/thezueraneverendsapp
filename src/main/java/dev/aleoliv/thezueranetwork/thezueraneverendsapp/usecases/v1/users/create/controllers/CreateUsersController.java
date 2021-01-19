@@ -1,8 +1,8 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.controllers;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.controllers;
 
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos.CreateUsersRequestDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos.CreateUsersResponseDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.services.CreateUsersService;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.dtos.CreateUsersRequestDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.dtos.CreateUsersResponseDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.services.CreateUsersService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;

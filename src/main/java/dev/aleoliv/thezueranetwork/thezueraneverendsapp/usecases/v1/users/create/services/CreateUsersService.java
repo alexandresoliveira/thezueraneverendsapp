@@ -1,10 +1,10 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.services;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.services;
 
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.entities.UserEntity;
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.repositories.UserRepository;
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.exceptions.ServiceApiException;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos.CreateUsersRequestDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos.CreateUsersResponseDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.dtos.CreateUsersRequestDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.create.dtos.CreateUsersResponseDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

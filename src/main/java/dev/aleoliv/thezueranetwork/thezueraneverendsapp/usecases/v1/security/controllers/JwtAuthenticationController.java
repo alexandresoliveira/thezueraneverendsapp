@@ -1,8 +1,8 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.security.controllers;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.controllers;
 
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.security.dtos.SecurityUserRequestDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.security.dtos.SecurityUserResponseDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.security.services.JwtAuthenticationService;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.dtos.SecurityUserRequestDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.dtos.SecurityUserResponseDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.security.services.JwtAuthenticationService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
