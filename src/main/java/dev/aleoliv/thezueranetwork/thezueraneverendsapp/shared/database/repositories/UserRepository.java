@@ -1,12 +1,10 @@
 package dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.repositories;
 
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.entities.UserEntity;
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import java.util.Optional;
 import java.util.UUID;
 
-public interface UserRepository extends JpaRepository<UserEntity, UUID> {
+import org.springframework.data.jpa.repository.JpaRepository;
 
-    Optional<UserEntity> findByEmail(String email);
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.entities.UserEntity;
+
+public interface UserRepository extends JpaRepository<UserEntity, UUID> {
 }
