@@ -1,4 +1,4 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.phrases.create.advices;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.phrases.phrases.create.advices;
 
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.exceptions.ServiceApiException;
 import org.springframework.http.HttpStatus;

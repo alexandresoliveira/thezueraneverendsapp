@@ -1,14 +1,14 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.users.create.controllers;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.controllers;
 
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.users.create.dtos.CreateUsersRequestDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.users.create.dtos.CreateUsersResponseDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.users.create.services.CreateUsersService;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos.CreateUsersRequestDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos.CreateUsersResponseDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.services.CreateUsersService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/users/create")
+@RequestMapping("v1/users/create")
 public class CreateUsersController {
 
     private final CreateUsersService service;

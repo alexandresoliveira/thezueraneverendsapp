@@ -1,4 +1,4 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.users.create.dtos;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.users.users.create.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

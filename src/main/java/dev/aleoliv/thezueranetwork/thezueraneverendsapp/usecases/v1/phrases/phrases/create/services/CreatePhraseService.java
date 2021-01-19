@@ -1,11 +1,11 @@
-package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.phrases.create.services;
+package dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.phrases.phrases.create.services;
 
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.entities.PhraseEntity;
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.repositories.PhraseRepository;
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.repositories.UserRepository;
 import dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.exceptions.ServiceApiException;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.phrases.create.dtos.CreatePhraseRequestDTO;
-import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.phrases.create.dtos.CreatePhraseResponseDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.phrases.phrases.create.dtos.CreatePhraseRequestDTO;
+import dev.aleoliv.thezueranetwork.thezueraneverendsapp.usecases.v1.phrases.phrases.create.dtos.CreatePhraseResponseDTO;
 import org.springframework.stereotype.Service;
 
 @Service
