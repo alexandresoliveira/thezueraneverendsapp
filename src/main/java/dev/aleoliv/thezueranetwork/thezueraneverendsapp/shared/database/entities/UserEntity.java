@@ -1,14 +1,16 @@
 package dev.aleoliv.thezueranetwork.thezueraneverendsapp.shared.database.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
+
+import org.springframework.security.crypto.bcrypt.BCrypt;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Table(name = "users")
@@ -18,17 +20,17 @@ import javax.persistence.Table;
 @EqualsAndHashCode(callSuper = false)
 public class UserEntity extends BaseEntity {
 
-    @Column
-    private String name;
+  @Column
+  private String name;
 
-    @Column(unique = true)
-    private String email;
+  @Column(unique = true)
+  private String email;
 
-    @Column
-    private String password;
+  @Column
+  private String password;
 
-    @PrePersist
-    public void prePersist() {
-        // this.password = BCrypt.hashpw(password, BCrypt.gensalt(8));
-    }
+  @PrePersist
+  public void prePersist() {
+    this.password = BCrypt.hashpw(password, BCrypt.gensalt(8));
+  }
 }
