@@ -4,17 +4,18 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  color: #757575;
 
   > a {
     align-self: flex-start;
     text-decoration: none;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 24px;
     color: #757575;
-    margin: 0;
 
     svg {
       margin-right: 8px;
@@ -23,12 +24,25 @@ export const Container = styled.div`
   }
 `;
 
+export const Title = styled.h1`
+  font-weight: bold;
+  font-family: 'Dancing Script', cursive;
+  font-size: 48px;
+  color: #757575;
+`;
+
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 24px 0px;
+  margin-top: 24px;
+  color: #757575;
+
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+  }
 
   form {
     display: flex;
@@ -36,13 +50,6 @@ export const Content = styled.div`
     align-items: center;
     width: 100%;
     margin: 24px 0px;
-
-    > h1 {
-      align-self: flex-start;
-      color: #757575;
-      font-weight: bold;
-      margin-bottom: 24px;
-    }
 
     div {
       width: 100%;
@@ -64,12 +71,12 @@ export const RowButtons = styled.div`
   padding: 24px 0px;
 
   button {
-    max-width: 200px;
+    width: 220px;
   }
-`;
 
-export const Line = styled.div`
-  background: #757575;
-  width: 100%;
-  height: 1px;
+  @media (max-width: 512px) {
+    button {
+      width: 100%;
+    }
+  }
 `;

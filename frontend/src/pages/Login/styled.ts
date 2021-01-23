@@ -29,7 +29,7 @@ export const Content = styled.div`
       text-decoration: none;
       color: #e91e63;
       font-weight: bold;
-      width: 80%;
+      width: 100%;
       text-align: center;
       border-radius: 10px;
 
