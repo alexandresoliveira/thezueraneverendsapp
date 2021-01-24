@@ -13,7 +13,6 @@ export const Container = styled.div<ContainerProps>`
   padding: 16px;
   border-radius: 10px;
   border: 2px solid #b0bec5;
-  background: #b0bec5;
   color: #757575;
 
   & + div {
@@ -23,20 +22,23 @@ export const Container = styled.div<ContainerProps>`
   ${props =>
     props.isErrored &&
     css`
+      color: #c53030;
       border-color: #c53030;
     `}
 
   ${props =>
     props.isFocused &&
     css`
-      color: #e91e63;
-      border-color: #e91e63;
+      color: #ff9100;
+      border-color: #ff9100;
     `}
 
   ${props =>
     props.isFilled &&
+    !props.isErrored &&
     css`
-      color: #e91e63;
+      color: #ff9100;
+      border-color: #ff9100;
     `}
 
   input {
